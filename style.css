@@ -1,15 +1,58 @@
 body, html {
-  background-image: url('./halfdome_bread.jpg');
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  position: relative;
   font-family: "Courier New", Courier, monospace;
   font-size: 25px;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(rgba(200, 100, 15, 0.6), rgba(0, 0, 0, 0)), url('./halfdome_bread.jpg');
+  background-position: center;
+  background-size: cover;
+
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
 
 mark {
-  background-color: lightblue;
+  display: inline-block;
+  background-color: rgba(173, 216, 230, .8);
+  padding-left: .5em;
+  padding-right: .5em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: center;
+}
+
+.nav {
+  background: rgba(0, 0, 0, .75);
+  height: 2em;
+  vertical-align: middle;
+}
+
+.nav-item {
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 2em;
+  text-align: center;
+}
+
+.nav-item a {
+  color: rgb(173, 216, 230);
+  text-decoration: none;
+  line-height: 1.9em;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.nav-item:hover {
+  color: red;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.splash {
+  height: calc(100% - 2em);
+  width: 100%;
+  position: absolute;
 }
 
 .topleft {
@@ -27,7 +70,7 @@ mark {
 }
 
 .middle {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
