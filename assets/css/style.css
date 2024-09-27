@@ -3,39 +3,17 @@ body, html {
   font-size: 25px;
   margin: 0;
   padding: 0;
-  background: radial-gradient(rgba(200, 100, 15, 0.6), rgba(0, 0, 0, 0)), url('./halfdome_bread.jpg');
+  background: radial-gradient(rgba(200, 100, 15, 0.6), rgba(0, 0, 0, 0)), url('../images/halfdome_bread.jpg');
   background-position: center;
   background-size: cover;
 
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  position: fixed;
 }
 
-mark {
-  display: inline-block;
-  background-color: rgba(173, 216, 230, .8);
-  padding-left: .5em;
-  padding-right: .5em;
-  height: 2em;
-  line-height: 2em;
-  vertical-align: center;
-}
 
-.rsvp-form-wrapper {
-  width: 100%;
-  height: calc(100% - 4em);
-  display: flex;
-  justify-content: center;
-}
 
-.rsvp-form {
-  position: relative;
-  top: 2em;
-  width: 80%;
-  height: 100%;
-  max-width: 720px;
-}
 
 .nav {
   background: rgba(0, 0, 0, .75);
@@ -83,8 +61,8 @@ mark {
   color: white;
 }
 
-.bottomleft {
-  position: absolute;
+.wow-banner {
+  position: fixed;
   font-size: 20px;
   bottom: 0;
   left: 16px;
@@ -93,14 +71,29 @@ mark {
 
 .middle {
   position: relative;
-  top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 0);
   text-align: center;
   color: white;
+  overflow-y: scroll;
+}
+
+.middle-center {
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 hr {
   margin: auto;
   width: 40%;
+}
+
+mark {
+  display: inline-block;
+  background-color: rgba(173, 216, 230, .8);
+  padding-left: .5em;
+  padding-right: .5em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: center;
 }
