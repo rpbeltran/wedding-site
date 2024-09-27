@@ -1,6 +1,12 @@
 
 .middle {
     height: 100%;
+    padding-top: 5em;
+}
+
+img {
+    width: 40em;
+    max-width: 100%;
 }
 
 .solid-pane {
