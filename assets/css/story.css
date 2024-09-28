@@ -9,6 +9,12 @@ img {
     max-width: 100%;
 }
 
+.photo-gallery {
+    width: 40em;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
 .solid-pane {
     display: block;
     text-align: center;
@@ -18,4 +24,7 @@ img {
     max-width: 40em;
     margin: 0 auto;
     padding: .25em 1em;
+}
+
+h1 {
 }
