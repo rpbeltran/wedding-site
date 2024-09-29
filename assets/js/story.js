@@ -10,9 +10,9 @@ jQuery(document).ready(function () {
        thumbnailHoverEffect2:      'scale120',
        // ### gallery content ### 
        items: [
-           { src: 'marmot_sit_2.jpeg', srct: 'marmot_sit_2.jpeg', title: 'Kings Canyon' },
-           { src: 'ghost_town.jpg', srct: 'ghost_town.jpg', title: 'A Ghost Town' },
-           { src: 'jtree_laugh.jpeg', srct: 'jtree_laugh.jpeg', title: 'Joshua Tree' },
+           { src: 'marmot_sit_2.jpeg', srct: 'thumbnails/marmot_sit_2.jpeg', title: 'Kings Canyon' },
+           { src: 'ghost_town.jpg', srct: 'thumbnails/ghost_town.jpg', title: 'A Ghost Town' },
+           { src: 'jtree_laugh.jpeg', srct: 'thumbnails/jtree_laugh.jpeg', title: 'Joshua Tree' },
          ]
      });
 
@@ -26,11 +26,11 @@ jQuery(document).ready(function () {
     thumbnailHoverEffect2:      'scale120',
     // ### gallery content ### 
     items: [
-        { src: 'amy_clomp.jpg', srct: 'amy_clomp.jpg'},
-        { src: 'ryan-dyno.jpeg', srct: 'ryan-dyno.jpeg'},
-        { src: 'amy-clomp-2.jpeg', srct: 'amy-clomp-2.jpeg'},
+        { src: 'amy_clomp.jpg', srct: 'thumbnails/amy_clomp.jpg'},
+        { src: 'ryan-dyno.jpeg', srct: 'thumbnails/ryan-dyno.jpeg'},
+        { src: 'amy-clomp-2.jpeg', srct: 'thumbnails/amy-clomp-2.jpeg'},
 
-        { src: 'ryan-clomp-cropped.jpeg', srct: 'ryan-clomp-cropped.jpeg'},
+        { src: 'ryan-clomp-cropped.jpeg', srct: 'thumbnails/ryan-clomp-cropped.jpeg'},
       ]
   });
 
@@ -44,7 +44,7 @@ jQuery(document).ready(function () {
 
        // ### gallery content ### 
        items: [
-            { src: 'mt_tam.jpeg', srct: 'mt_tam.jpeg', title: 'First known photo of the couple' },
+            { src: 'mt_tam.jpeg', srct: 'thumbnails/mt_tam.jpeg', title: 'First known photo of the couple' },
          ]
      });
 
@@ -58,10 +58,10 @@ jQuery(document).ready(function () {
        
        // ### gallery content ### 
        items: [
-        { src: 'elcap1.jpeg', srct: 'elcap1.jpeg'},
-        { src: 'elcap2.jpeg', srct: 'elcap2.jpeg'},
-        { src: 'elcap3.jpeg', srct: 'elcap3.jpeg'},
-        { src: 'elcap4.jpeg', srct: 'elcap4.jpeg'},
+        { src: 'elcap1.jpeg', srct: 'thumbnails/elcap1.jpeg'},
+        { src: 'elcap2.jpeg', srct: 'thumbnails/elcap2.jpeg'},
+        { src: 'elcap3.jpeg', srct: 'thumbnails/elcap3.jpeg'},
+        { src: 'elcap4.jpeg', srct: 'thumbnails/elcap4.jpeg'},
       ]
      });
 
@@ -76,19 +76,19 @@ jQuery(document).ready(function () {
        
        // ### gallery content ### 
        items: [
-           { src: 'desolation.jpg', srct: 'desolation.jpg', title: 'Desolation Wilderness' },
-           { src: 'subdome.jpg', srct: 'subdome.jpg', title: 'Subdome' },
-           { src: 'half_dome_1.jpg', srct: 'half_dome_1.jpg', title: 'Half Dome' },
-           { src: 'jtree_1.jpeg', srct: 'jtree_1.jpeg', title: 'Joshua Tree' },
-           { src: 'jtree2.jpg', srct: 'jtree2.jpg', title: 'Joshua Tree' },
-           { src: 'lava_tube.jpg', srct: 'lava_tube.jpg', title: 'Lava Tubes' },
-           { src: 'kelso_dunes.jpeg', srct: 'kelso_dunes.jpeg', title: 'Kelso Dunes' },
-           { src: 'vernal_falls.jpg', srct: 'vernal_falls.jpg', title: 'Vernal Falls' },
-           { src: 'j_tree_3.jpg', srct: 'j_tree_3.jpg', title: 'Joshua Tree' },
-           { src: 'budd_creek.jpg', srct: 'budd_creek.jpg', title: 'Budd Creek' },
-           { src: 'lost_coast_2.jpg', srct: 'lost_coast_2.jpg', title: 'Lost Coast Trail' },
-           { src: 'half_dome_returns.jpg', srct: 'half_dome_returns.jpg', title: 'Half Dome' },
-           { src: 'ski_1.jpeg', srct: 'ski_1.jpeg', title: 'Skiing' },
+           { src: 'desolation.jpg', srct: 'thumbnails/desolation.jpg', title: 'Desolation Wilderness' },
+           { src: 'subdome.jpg', srct: 'thumbnails/subdome.jpg', title: 'Subdome' },
+           { src: 'half_dome_1.jpg', srct: 'thumbnails/half_dome_1.jpg', title: 'Half Dome' },
+           { src: 'jtree_1.jpeg', srct: 'thumbnails/jtree_1.jpeg', title: 'Joshua Tree' },
+           { src: 'jtree2.jpg', srct: 'thumbnails/jtree2.jpg', title: 'Joshua Tree' },
+           { src: 'lava_tube.jpg', srct: 'thumbnails/lava_tube.jpg', title: 'Lava Tubes' },
+           { src: 'kelso_dunes.jpeg', srct: 'thumbnails/kelso_dunes.jpeg', title: 'Kelso Dunes' },
+           { src: 'vernal_falls.jpg', srct: 'thumbnails/vernal_falls.jpg', title: 'Vernal Falls' },
+           { src: 'j_tree_3.jpg', srct: 'thumbnails/j_tree_3.jpg', title: 'Joshua Tree' },
+           { src: 'budd_creek.jpg', srct: 'thumbnails/budd_creek.jpg', title: 'Budd Creek' },
+           { src: 'lost_coast_2.jpg', srct: 'thumbnails/lost_coast_2.jpg', title: 'Lost Coast Trail' },
+           { src: 'half_dome_returns.jpg', srct: 'thumbnails/half_dome_returns.jpg', title: 'Half Dome' },
+           { src: 'ski_1.jpeg', srct: 'thumbnails/ski_1.jpeg', title: 'Skiing' },
          ]
      });
 
@@ -103,12 +103,12 @@ jQuery(document).ready(function () {
        
        // ### gallery content ### 
        items: [
-           { src: 'lost_coast_beach.jpg', srct: 'lost_coast_beach.jpg', title: 'Lost Coast Trail' },
-           { src: 'anza_stacked.jpg', srct: 'anza_stacked.jpg', title: 'Anza Borrego' },
-           { src: 'burney_falls.jpg', srct: 'burney_falls.jpg', title: 'Burney Falls' },
-           { src: 'shasta.jpg', srct: 'shasta.jpg', title: 'Mt. Shasta' },
-           { src: 'crater_lake.jpg', srct: 'crater_lake.jpg', title: 'Crater Lake' },
-           { src: 'golden_gate_1.jpg', srct: 'golden_gate_1.jpg', title: 'Golden Gate' },
+           { src: 'lost_coast_beach.jpg', srct: 'thumbnails/lost_coast_beach.jpg', title: 'Lost Coast Trail' },
+           { src: 'anza_stacked.jpg', srct: 'thumbnails/anza_stacked.jpg', title: 'Anza Borrego' },
+           { src: 'burney_falls.jpg', srct: 'thumbnails/burney_falls.jpg', title: 'Burney Falls' },
+           { src: 'shasta.jpg', srct: 'thumbnails/shasta.jpg', title: 'Mt. Shasta' },
+           { src: 'crater_lake.jpg', srct: 'thumbnails/crater_lake.jpg', title: 'Crater Lake' },
+           { src: 'golden_gate_1.jpg', srct: 'thumbnails/golden_gate_1.jpg', title: 'Golden Gate' },
          ]
      });
  
@@ -122,9 +122,9 @@ jQuery(document).ready(function () {
         
         // ### gallery content ### 
         items: [
-            { src: 'clouds_rest_hike_1.jpeg', srct: 'clouds_rest_hike_1.jpeg', title: '' },
-            { src: 'clouds_rest_hike_2.jpeg', srct: 'clouds_rest_hike_2.jpeg', title: '' },
-            { src: 'clouds_rest_hike_0.jpeg', srct: 'clouds_rest_hike_0.jpeg', title: '' },
+            { src: 'clouds_rest_hike_1.jpeg', srct: 'thumbnails/clouds_rest_hike_1.jpeg', title: '' },
+            { src: 'clouds_rest_hike_2.jpeg', srct: 'thumbnails/clouds_rest_hike_2.jpeg', title: '' },
+            { src: 'clouds_rest_hike_0.jpeg', srct: 'thumbnails/clouds_rest_hike_0.jpeg', title: '' },
           ]
       });
  
@@ -138,10 +138,10 @@ jQuery(document).ready(function () {
         thumbnailHoverEffect2:      'scale120',
         // ### gallery content ### 
         items: [
-            { src: 'proposal_1.jpeg', srct: 'proposal_1.jpeg', title: '' },
-            { src: 'proposal_4.jpeg', srct: 'proposal_4.jpeg', title: '' },
-            { src: 'proposal_5.jpeg', srct: 'proposal_5.jpeg', title: '' },
-            { src: 'proposal_6.jpg', srct: 'proposal_6.jpg', title: '' },
+            { src: 'proposal_1.jpeg', srct: 'thumbnails/proposal_1.jpeg', title: '' },
+            { src: 'proposal_4.jpeg', srct: 'thumbnails/proposal_4.jpeg', title: '' },
+            { src: 'proposal_5.jpeg', srct: 'thumbnails/proposal_5.jpeg', title: '' },
+            { src: 'proposal_6.jpg', srct: 'thumbnails/proposal_6.jpg', title: '' },
           ],
         galleryMosaic :   [
             { "c": 1, "r": 1, "w": 1, "h": 2 },
@@ -162,7 +162,7 @@ jQuery(document).ready(function () {
         thumbnailHoverEffect2:      'scale120',
         // ### gallery content ### 
         items: [
-            { src: 'desert_kish.jpeg', srct: 'desert_kish_thumb.jpeg', title: 'Mesquite Dunes in Death Valley' },
+            { src: 'desert_kish.jpeg', srct: 'thumbnails/desert_kish_thumb.jpeg', title: 'Mesquite Dunes in Death Valley' },
           ]
       });
 
