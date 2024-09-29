@@ -21,7 +21,7 @@ img {
     text-align: center;
     background-color: rgba(5, 5, 5, 0.7);
     margin-left: auto;
-    width: 100%;
+    width: calc(100% - 2em);
     max-width: 40em;
     margin: 0 auto;
     padding: .25em 1em;
