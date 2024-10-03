@@ -12,9 +12,6 @@ body, html {
   position: fixed;
 }
 
-
-
-
 .nav {
   background: rgba(0, 0, 0, .75);
   height: 2em;
@@ -96,4 +93,24 @@ mark {
   height: 2em;
   line-height: 2em;
   vertical-align: center;
+}
+
+.solid-pane {
+  display: block;
+  text-align: center;
+  background-color: rgba(5, 5, 5, 0.7);
+  margin-left: auto;
+  width: calc(100% - 2em);
+  max-width: 40em;
+  margin: 0 auto;
+  padding: .25em 1em;
+}
+
+.title-pane {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.subtitle-pane {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
 }
